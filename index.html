@@ -1,171 +1,335 @@
+<!-- filename: refund-high-contrast.html -->
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Fast Refund & Support — Call Now</title>
-  <meta name="description" content="Trusted refund & customer support service. Fast help for order refunds, returns and delivery issues. Call теперь for instant assistance.">
-  <meta name="robots" content="index,follow">
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Prime Refund Support -- Fast & Trusted</title>
+<meta name="description" content="Prime Refund Support helps you recover refunds quickly. Call now for expert support with order refunds, disputes and chargebacks." />
+<meta name="robots" content="index,follow" />
 
-  <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-17455854824"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'AW-17455854824');
-  </script>
+<!-- ========== Google Analytics (replace G-XXXXXXX) ========== -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXX"></script>
+<script>
+  // Replace G-XXXXXXX with your Measurement ID
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){ dataLayer.push(arguments); }
+  gtag('js', new Date());
+  gtag('config', 'G-XXXXXXX');
+</script>
 
-  <link rel="icon" href="data:;base64,iVBORw0KGgo=">
-  <style>
-    :root{--accent:#0b6efd;--dark:#0b2545;--muted:#6b7280;--bg:#f7f9fc}
-    *{box-sizing:border-box}
-    body{font-family:Inter,Segoe UI,Roboto,system-ui,-apple-system,Arial,sans-serif;margin:0;color:#0f1724;background:var(--bg);line-height:1.45}
-    header{background:#fff;padding:14px 16px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid #e6eef8;position:sticky;top:0;z-index:100}
-    .brand{display:flex;align-items:center;gap:12px}
-    .logo{width:42px;height:42px;border-radius:8px;background:linear-gradient(135deg,var(--accent),#06b6d4);display:flex;align-items:center;justify-content:center;color:#fff;font-weight:700}
-    .brand h1{font-size:16px;margin:0}
-    .phone{font-weight:700;color:var(--dark)}
-    .cta{background:var(--accent);color:#fff;padding:10px 14px;border-radius:8px;text-decoration:none;font-weight:600}
-    .hero{padding:28px 16px;background:linear-gradient(180deg,#ffffff 0%, #f3f7ff 100%);display:flex;gap:20px;align-items:center;flex-wrap:wrap}
-    .hero-left{flex:1;min-width:260px}
-    .hero h2{font-size:22px;margin:6px 0 8px}
-    .hero p{color:var(--muted);margin:0 0 14px}
-    .big-phone{display:inline-flex;align-items:center;gap:10px;background:#eef6ff;padding:10px 12px;border-radius:10px;color:var(--dark);font-weight:700}
-    .hero-right{flex:0 0 320px;min-width:260px}
-    .card{background:#fff;padding:18px;border-radius:12px;box-shadow:0 6px 18px rgba(11,38,77,0.06);}
-    .call-big{display:flex;flex-direction:column;gap:10px}
-    .call-big a{display:inline-block;text-align:center;padding:12px;border-radius:10px;font-weight:700;text-decoration:none}
-    .call-now{background:var(--accent);color:#fff}
-    .whats{background:#eef2ff;color:var(--dark)}
-    main{max-width:1000px;margin:18px auto;padding:0 16px}
-    .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
-    .box{background:#fff;padding:16px;border-radius:10px;border:1px solid #eef4ff}
-    h3{margin:0 0 8px}
-    ul{margin:0;padding-left:18px;color:var(--muted)}
-    .why{display:grid;grid-template-columns:repeat(2,1fr);gap:14px;margin-top:16px}
-    .footer{margin-top:20px;padding:18px;background:#fff;border-top:1px solid #e6eef8;border-radius:12px}
-    .footer .links{display:flex;gap:12px;flex-wrap:wrap}
-    .bottom-cta{position:fixed;right:16px;bottom:16px;z-index:120}
-    .phone-bubble{background:var(--accent);color:#fff;padding:12px 16px;border-radius:999px;text-decoration:none;font-weight:700;box-shadow:0 8px 24px rgba(11,38,77,0.12)}
-    @media(max-width:800px){.grid{grid-template-columns:repeat(1,1fr)}.why{grid-template-columns:repeat(1,1fr)}.hero-right{flex-basis:100%}}
-  </style>
-  <script type="application/ld+json">
-  {
-    "@context":"https://schema.org",
-    "@type":"LocalBusiness",
-    "name":"Digila Support Services",
-    "telephone":"+91-8927885467",
-    "url":"https://kavyakarnar.github.io/Digilatonline/",
-    "address":{
-      "@type":"PostalAddress",
-      "addressLocality":"Your City",
-      "addressCountry":"IN"
-    }
+<!-- ========== Google AdSense (replace ca-pub-XXXXXXXXXXXXXXXX) ========== -->
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXXXXXXXX" crossorigin="anonymous"></script>
+
+<style>
+  /* High-contrast theme: Dark navy + gold accent */
+  :root{
+    --bg:#0b1220;
+    --card:#0f1724;
+    --accent:#ffb400; /* gold */
+    --muted:#94a3b8;
+    --text:#e6eef8;
+    --maxw:1100px;
   }
-  </script>
+  *{box-sizing:border-box}
+  body{margin:0;font-family:Inter,system-ui,Segoe UI,Roboto,"Helvetica Neue",Arial;color:var(--text);background:var(--bg);-webkit-font-smoothing:antialiased}
+  a{color:var(--accent);text-decoration:none}
+  header{position:sticky;top:0;z-index:1000;background:linear-gradient(180deg, rgba(5,10,20,.95), rgba(5,10,20,.9));backdrop-filter: blur(4px);border-bottom:1px solid rgba(255,180,0,.06)}
+  .wrap{max-width:var(--maxw);margin:0 auto;padding:14px 20px;display:flex;align-items:center;justify-content:space-between;gap:12px}
+  .brand{display:flex;align-items:center;gap:12px}
+  .logo{width:48px;height:48px;border-radius:8px;background:linear-gradient(135deg,var(--accent),#ff8a00);display:flex;align-items:center;justify-content:center;font-weight:800;color:#071129}
+  .site-title{font-weight:700;font-size:18px}
+  nav{display:flex;gap:12px;align-items:center}
+  nav a{color:var(--muted);font-weight:600;font-size:14px;padding:6px 8px;border-radius:6px}
+  nav a:hover{color:var(--text);background:rgba(255,255,255,.02)}
+
+  /* Sticky call button in header */
+  .call-now{
+    background:var(--accent);
+    color:#071129;
+    padding:10px 14px;
+    border-radius:10px;
+    font-weight:800;
+    box-shadow:0 6px 18px rgba(255,180,0,.12);
+    display:inline-flex;
+    align-items:center;
+    gap:8px;
+    text-decoration:none;
+  }
+
+  main{max-width:var(--maxw);margin:26px auto;padding:0 20px}
+  .hero{display:grid;grid-template-columns:1fr 380px;gap:28px;align-items:center;padding:28px;background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));border-radius:12px;border:1px solid rgba(255,255,255,0.03)}
+  .hero h1{margin:0;font-size:32px;line-height:1.05;color:var(--text)}
+  .hero p{color:var(--muted);margin-top:8px;font-size:15px}
+  .hero .hero-actions{margin-top:18px;display:flex;gap:12px;flex-wrap:wrap}
+  .primary-cta{background:var(--accent);color:#071129;padding:12px 16px;border-radius:10px;font-weight:800}
+  .secondary-cta{border:1px solid rgba(255,255,255,.05);padding:12px 16px;border-radius:10px;color:var(--muted)}
+
+  /* Right column: quick claim card */
+  .card{background:linear-gradient(180deg, rgba(255,255,255,0.01), rgba(255,255,255,0.02));padding:16px;border-radius:10px;border:1px solid rgba(255,255,255,0.03)}
+  label{display:block;font-size:13px;color:var(--muted);margin-top:10px}
+  input,textarea,select{width:100%;padding:10px;border-radius:8px;border:1px solid rgba(255,255,255,0.04);background:transparent;color:var(--text);margin-top:6px}
+  button[type="submit"]{margin-top:12px;background:var(--accent);color:#071129;padding:10px 12px;border-radius:8px;border:0;font-weight:800;width:100%}
+
+  /* Sections */
+  section{margin-top:26px}
+  .section-title{font-size:20px;margin-bottom:12px;color:var(--text)}
+  .features{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px}
+  .feature{background:var(--card);padding:16px;border-radius:8px;border:1px solid rgba(255,255,255,0.02)}
+  .feature h4{margin:0 0 8px 0;color:var(--accent)}
+  .muted{color:var(--muted);font-size:14px}
+
+  /* testimonials & trust */
+  .two-col{display:grid;grid-template-columns:1fr 360px;gap:18px;align-items:start}
+  .test{background:linear-gradient(180deg, rgba(255,255,255,0.01), rgba(255,255,255,0.02));padding:14px;border-radius:8px;border:1px solid rgba(255,255,255,0.03)}
+  .trust{background:rgba(255,255,255,0.02);padding:14px;border-radius:8px;text-align:center}
+
+  /* ad slot box (subtle) */
+  .ads-box{margin:18px 0;padding:12px;border-radius:8px;background:linear-gradient(180deg, rgba(255,255,255,0.01), rgba(255,255,255,0.005));border:1px dashed rgba(255,255,255,0.02);text-align:center}
+
+  footer{max-width:var(--maxw);margin:28px auto;padding:18px 20px;color:var(--muted);font-size:14px;text-align:center;border-top:1px solid rgba(255,255,255,0.02)}
+
+  /* responsive */
+  @media(max-width:980px){
+    .hero{grid-template-columns:1fr}
+    .two-col{grid-template-columns:1fr}
+    nav{display:none}
+  }
+</style>
 </head>
 <body>
-  <header>
-    <div class="brand">
-      <div class="logo">DS</div>
+
+<!-- Header: sticky with Call Now visible on every page top -->
+<header role="banner" aria-label="Site header">
+  <div class="wrap">
+    <div class="brand" aria-hidden="false">
+      <div class="logo" aria-hidden="true">PR</div>
       <div>
-        <h1>Digila Support Services</h1>
-        <div style="font-size:13px;color:var(--muted)">Fast refund & customer help</div>
+        <div class="site-title">Prime Refund Support</div>
+        <div class="muted" style="font-size:12px">Fast. Transparent. Trusted.</div>
       </div>
     </div>
-    <div style="display:flex;align-items:center;gap:12px">
-      <div class="phone">Call now: <a href="tel:+91-8927885467" class="phone">+91-XXXXXXXXXX</a></div>
-      <a class="cta" href="tel:+91-8927885467">Call Now</a>
-    </div>
-  </header>
-  <section class="hero">
-    <div class="hero-left">
-      <h2>Need Fast Refund or Delivery Support?</h2>
-      <p>We help with refunds, returns and delivery issues for online orders. Trusted support team — quick guidance and call assistance.</p>
-      <div class="big-phone">📞 <strong><a href="tel:+91-8927885467" style="color:inherit;text-decoration:none">+91-XXXXXXXXXX</a></strong> &nbsp; • &nbsp; Available 09:00-21:00</div>
-      <div style="margin-top:14px">
-        <a class="cta" href="tel:+91-8927885467" style="padding:12px 16px;display:inline-block;margin-right:10px">Tap to Call</a>
-        <a href="#contact" style="text-decoration:none;color:var(--muted);font-weight:700">Message Us</a>
+
+    <nav role="navigation" aria-label="Main navigation">
+      <a href="#services">Services</a>
+      <a href="#how">How it works</a>
+      <a href="#testimonials">Testimonials</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <!-- sticky call button -->
+    <a class="call-now" href="tel:+918927885468" aria-label="Call Prime Refund Support now">
+      <!-- phone emoji + visible text for high-contrast -->
+      <span style="font-weight:900;font-size:15px">📞</span>
+      <span style="font-size:14px">Call Now</span>
+      <span style="font-size:13px;color:#071129;background:rgba(0,0,0,0.06);padding:4px 8px;border-radius:6px;margin-left:6px;font-weight:700">+91 8927885468 </span>
+    </a>
+  </div>
+</header>
+
+<main role="main">
+  <div class="hero" aria-labelledby="hero-title">
+    <div>
+      <h1 id="hero-title">Recover Your Refund -- Fast & Professional Support</h1>
+      <p class="muted">We follow up with merchants, payment providers and couriers so you don't have to. Transparent pricing, secure process, live support.</p>
+
+      <div class="hero-actions">
+  <a class="call-now" href="tel:+918927885468" aria-label="Call Prime Refund Support now">
+    📞 Call now
+  </a>
+  <a class="secondary-cta" href="#contact">Message & Email</a>
+</div>
+      <!-- inline ad under hero text -->
+      <div class="ads-box" aria-hidden="false">
+        <ins class="adsbygoogle"
+             style="display:block"
+             data-ad-client="ca-pub-XXXXXXXXXXXXXXXX"
+             data-ad-slot="1111111111"
+             data-ad-format="auto"
+             data-full-width-responsive="true"></ins>
+        <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
       </div>
+
+      <p class="muted" style="margin-top:6px">Typical refund time after approval: <strong style="color:var(--accent)">5–14 business days</strong></p>
     </div>
-    <div class="hero-right">
-      <div class="card">
-        <div class="call-big">
-          <div style="font-size:14px;color:var(--muted);font-weight:600">Instant Help</div>
-          <h3 style="margin:4px 0">Request a Callback</h3>
-          <p style="color:var(--muted);margin:0 0 8px">Leave your number and we'll call you back within 60 minutes.</p>
-          <form onsubmit="event.preventDefault();alert('Thank you — we will call you back soon.');" style="display:flex;gap:8px;flex-wrap:wrap">
-            <input type="tel" placeholder="Enter mobile number" required style="flex:1;padding:10px;border-radius:8px;border:1px solid #e6eef8">
-            <button class="cta" style="border:none;padding:10px 14px;border-radius:8px;background:var(--accent);color:#fff">Request Call</button>
-          </form>
-        </div>
+
+    <!-- Quick claim form (right column) -->
+    <aside class="card" aria-labelledby="quick-claim-title">
+      <h3 id="quick-claim-title">Quick Claim</h3>
+      <form id="quickClaim" onsubmit="submitQuickClaim(event)" aria-label="Quick claim form">
+        <label for="name">Full name</label>
+        <input id="name" name="name" required autocomplete="name" />
+
+        <label for="email">Email</label>
+        <input id="email" name="email" type="email" required autocomplete="email" />
+
+        <label for="order">Order / Transaction ID</label>
+        <input id="order" name="order" required />
+
+        <label for="issue">Short description</label>
+        <textarea id="issue" name="issue" rows="4" required></textarea>
+
+        <button type="submit">Submit & Get Review</button>
+      </form>
+
+      <p class="muted" style="margin-top:12px">We will email a free review with next steps. For urgent help, use the Call Now button above.</p>
+    </aside>
+  </div>
+
+  <!-- About -->
+  <section id="about">
+    <h3 class="section-title">About Prime Refund Support</h3>
+    <p class="muted">Prime Refund Support is a consumer-first refund assistance service. We handle communication with merchants, escalate to payment providers and keep you informed at every step. We respect privacy and follow secure processes -- see our <a href="privacy.html">Privacy Policy</a>.</p>
+  </section>
+
+  <!-- Services -->
+  <section id="services">
+    <h3 class="section-title">Our Services</h3>
+    <div class="features" role="list">
+      <div class="feature" role="listitem">
+        <h4>Order Refunds</h4>
+        <p class="muted">For undelivered, damaged or incorrect items. We file and track claims.</p>
+      </div>
+      <div class="feature" role="listitem">
+        <h4>Payment Disputes</h4>
+        <p class="muted">Chargebacks and gateway disputes handled professionally on your behalf.</p>
+      </div>
+      <div class="feature" role="listitem">
+        <h4>Subscription Refunds</h4>
+        <p class="muted">Cancel recurring subscriptions and recover eligible charges.</p>
+      </div>
+      <div class="feature" role="listitem">
+        <h4>Escalation & Follow-up</h4>
+        <p class="muted">Escalate ignored requests to higher-level support and regulators when needed.</p>
       </div>
     </div>
   </section>
-  <main>
-    <section class="grid">
-      <div class="box">
-        <h3>How We Help</h3>
-        <ul>
-          <li>Refund assistance for online orders and payments</li>
-          <li>Order cancellation & return guidance</li>
-          <li>Payment & transaction support</li>
-        </ul>
-      </div>
-      <div class="box">
-        <h3>Why Choose Us</h3>
-        <ul>
-          <li>Fast phone support — experienced team</li>
-          <li>No third-party branding mentioned</li>
-          <li>Clear, honest guidance — step by step</li>
-        </ul>
-      </div>
-      <div class="box">
-        <h3>Frequently Asked</h3>
-        <ul>
-          <li>How long for refund? — Depends on vendor; we assist to speed it up</li>
-          <li>Do you charge for help? — Transparent pricing discussed on call</li>
-        </ul>
-      </div>
-    </section>
-    <section class="why">
-      <div class="box">
-        <h3>Quick Steps</h3>
-        <ol style="color:var(--muted)">
-          <li>Call us or request callback</li>
-          <li>Share order details & screenshots</li>
-          <li>We guide the refund process till completion</li>
-        </ol>
-      </div>
-      <div class="box">
-        <h3>Service Areas</h3>
-        <p style="color:var(--muted);margin:0">Nationwide support — focus on urban metro areas. Mobile-first assistance.</p>
-      </div>
-    </section>
-    <section id="contact" style="margin-top:18px">
-      <div class="box">
-        <h3>Contact Us</h3>
-        <p style="color:var(--muted)">Phone: <a href="tel:+91-8927885467">+91-8927885467</a></p>  
-        <p style="color:var(--muted)">Email: <a href="serviceonline7165@gmail.com">serviceonline7165@gmail.com</a></p>
-        <p style="color:var(--muted)">Address: Online Service (City)</p>
-      </div>
-    </section>
-    <div class="footer">
-      <div style="display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap">
-        <div>
-          <strong>Digila Support Services</strong>
-          <div style="color:var(--muted);font-size:13px">Trusted refund & customer support</div>
-        </div>
-        <div class="links">
-          <a href="#" style="color:var(--muted);text-decoration:none">Privacy Policy</a>
-          <a href="#" style="color:var(--muted);text-decoration:none">Terms & Conditions</a>
-          <a href="#" style="color:var(--muted);text-decoration:none">Refund Policy</a>
-        </div>
-      </div>
+
+  <!-- How it works -->
+  <section id="how">
+    <h3 class="section-title">How it works -- simple 3-step process</h3>
+    <div class="features" style="grid-template-columns:repeat(3,1fr)">
+      <div class="feature"><strong>1. Submit</strong><p class="muted">Provide order & proof details via quick form.</p></div>
+      <div class="feature"><strong>2. We investigate</strong><p class="muted">We contact merchant & payment partners and file claims.</p></div>
+      <div class="feature"><strong>3. Get refund</strong><p class="muted">We follow until refund or best possible resolution.</p></div>
     </div>
-  </main>
-  <a class="phone-bubble bottom-cta" href="tel:+91-8927885467">📞 Call Now</a>
-  <footer style="height:40px"></footer>
+  </section>
+
+  <!-- Testimonials + small ad -->
+  <section id="testimonials">
+    <h3 class="section-title">Customer Stories</h3>
+    <div class="two-col">
+      <div>
+        <div class="test">
+          <strong>Priya R.</strong>
+          <p class="muted">"Prime Refund Support recovered my money when the seller stopped responding -- very fast and professional."</p>
+        </div>
+        <div class="test" style="margin-top:12px">
+          <strong>Rahul S.</strong>
+          <p class="muted">"Clear communication and helpful templates for proof. Recommended."</p>
+        </div>
+      </div>
+
+      <aside class="trust">
+        <h4 style="color:var(--accent);margin:0 0 10px 0">Trusted & Secure</h4>
+        <p class="muted">PCI-aware processes • Encrypted communication • Privacy-first</p>
+
+        <div style="margin-top:12px" class="ads-box">
+          <ins class="adsbygoogle"
+               style="display:block"
+               data-ad-client="ca-pub-XXXXXXXXXXXXXXXX"
+               data-ad-slot="2222222222"
+               data-ad-format="auto"
+               data-full-width-responsive="true"></ins>
+          <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+        </div>
+      </aside>
+    </div>
+  </section>
+
+  <!-- Full claim / contact -->
+  <section id="claim">
+    <h3 class="section-title">Full Claim & Contact</h3>
+    <div style="display:grid;grid-template-columns:1fr 360px;gap:18px">
+      <div class="card">
+        <h4>Detailed Claim Form</h4>
+        <form onsubmit="submitDetailedClaim(event)" aria-label="Detailed claim form">
+          <label for="dname">Full name</label>
+          <input id="dname" required autocomplete="name">
+
+          <label for="demail">Email</label>
+          <input id="demail" type="email" required autocomplete="email">
+
+          <label for="dphone">Phone (optional)</label>
+          <input id="dphone" type="tel" placeholder="+91">
+
+          <label for="dorder">Order / Transaction ID</label>
+          <input id="dorder" required>
+
+          <label for="ddesc">Describe the issue & attach proof links</label>
+          <textarea id="ddesc" rows="6" required></textarea>
+
+          <button type="submit">Send Claim</button>
+        </form>
+      </div>
+
+      <aside class="card" id="contact">
+        <h4>Contact & Support</h4>
+        <p class="muted"><strong>Phone:</strong> <a href="tel:+918927885468" style="color:var(--accent)">+918927885468 </a></p>
+        <p class="muted"><strong>Email:</strong> <a href="mailto:support@example.com" style="color:var(--accent)">support@example.com</a></p>
+        <p class="muted">Office hours: Mon–Sat, 9:30 AM – 7:00 PM</p>
+      </aside>
+    </div>
+  </section>
+
+  <!-- Final ad slot (below content) -->
+  <div class="ads-box" aria-hidden="false">
+    <ins class="adsbygoogle"
+         style="display:block"
+         data-ad-client="ca-pub-XXXXXXXXXXXXXXXX"
+         data-ad-slot="3333333333"
+         data-ad-format="auto"
+         data-full-width-responsive="true"></ins>
+    <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+  </div>
+
+</main>
+
+<footer role="contentinfo">
+  <div>
+    <small>© <span id="yr"></span> Prime Refund Support -- All rights reserved • <a href="privacy.html">Privacy Policy</a> • <a href="#">Terms</a></small>
+  </div>
+</footer>
+
+<script>
+  // set year
+  document.getElementById('yr').textContent = new Date().getFullYear();
+
+  // Demo form handlers: open mail client for now (replace with real backend)
+  function submitQuickClaim(e){
+    e.preventDefault();
+    const name = document.getElementById('name').value.trim();
+    const email = document.getElementById('email').value.trim();
+    const order = document.getElementById('order').value.trim();
+    const issue = document.getElementById('issue').value.trim();
+    if(!name||!email||!order||!issue){ alert('Please complete all fields'); return; }
+    const subject = encodeURIComponent('Quick Refund Review -- ' + order);
+    const body = encodeURIComponent(`Name: ${name}\nEmail: ${email}\nOrder: ${order}\n\nIssue:\n${issue}`);
+    window.location.href = `mailto:support@example.com?subject=${subject}&body=${body}`;
+  }
+
+  function submitDetailedClaim(e){
+    e.preventDefault();
+    const name = document.getElementById('dname').value.trim();
+    const email = document.getElementById('demail').value.trim();
+    const order = document.getElementById('dorder').value.trim();
+    const desc = document.getElementById('ddesc').value.trim();
+    if(!name||!email||!order||!desc){ alert('Please fill all required fields'); return; }
+    const subject = encodeURIComponent('Detailed Refund Claim -- ' + order);
+    const body = encodeURIComponent(`Name: ${name}\nEmail: ${email}\nOrder: ${order}\n\n${desc}`);
+    window.location.href = `mailto:support@example.com?subject=${subject}&body=${body}`;
+  }
+</script>
+
 </body>
-</html>
+  </html>
